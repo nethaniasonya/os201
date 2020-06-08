@@ -1,0 +1,30 @@
+Script started on Mon Jun  8 17:44:36 2020
+nethania.sonya@badak:~$ PS1="$ "
+$ 
+$ echo $GitHubUser
+nethaniasonya
+$ 
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ 
+$ PS1="\$(eval \$PSTAMP)"
+mytest.txt.asc > SHA1SUMnia.sonya/> sha1sum 0000-mypub.txt 0001-mytest.txt 0002- 
+200608-174456-ee17-nethania.sonya/> sha1sum -c SHA1SUM
+0000-mypub.txt: OK
+0001-mytest.txt: OK
+0002-mytest.txt.asc: OK
+200608-174501-e3fb-nethania.sonya/> gpg2 -sb -a SHA1SUM
+
+You need a passphrase to unlock the secret key for
+user: "Nethania Sonya Violencia Lasmaria (gnupg) <nethania.sonya@ui.ac.id>"
+4096-bit RSA key, ID 228541B8, created 2020-06-06
+
+pinentry-curses: no LC_CTYPE known - assuming UTF-8
+200608-174657-5360-nethania.sonya/> gpg2 --verify SHA1SUM.asc
+gpg: assuming signed data in 'SHA1SUM'
+gpg: Signature made Mon Jun  8 17:46:57 2020 WIB using RSA key ID 228541B8
+gpg: Good signature from "Nethania Sonya Violencia Lasmaria (gnupg) <nethania.sonya@ui.ac.id>" [ultimate]
+200608-174709-b420-nethania.sonya/> exit
+exit
+
+Script done on Mon Jun  8 17:47:12 2020
