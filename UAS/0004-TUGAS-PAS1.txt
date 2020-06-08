@@ -1,0 +1,37 @@
+Script started on Mon Jun  8 19:57:44 2020
+nethania.sonya@badak:~$ PS1="$ "
+$ echo $GitHubUser
+nethaniasonya
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ eval $PSTAMP
+200608-195823-09f6-nethania.sonya/> 
+$ PS1="\$(eval \$PSTAMP)"
+200608-195828-5096-nethania.sonya/> echo -e $CEKSAYA
+nethaniasonya ZCZCSCRIPTSTART 200606-170601 nethaniasonya 
+ nethaniasonya nethaniasonya 200606-170601-df53-nethania.sonya/ 200606-170601 SEQOK SUMOK df534754 
+ nethaniasonya nethaniasonya 200606-170602-43cd-nethania.sonya/ 200606-174502 SEQOK SUMOK 43cdaf87 
+ nethaniasonya nethaniasonya 200606-170609-4528-nethania.sonya/ 200606-170609 SEQOK SUMOK 45281649 
+ nethaniasonya nethaniasonya 200606-170634-5c7b-nethania.sonya/ 200606-170634 SEQOK SUMOK 5c7bfed7 
+ nethaniasonya ZCZCSCRIPTSTOP 200606-170640 SEQOK 
+
+200608-195833-33dd-nethania.sonya/> echo -e $CEKSEBELA1
+nethaniasonya ZCZCSCRIPTSTART 200602-173115 nota1706 
+ nethaniasonya nota1706 200602-173152-96fd-UAS/ 200602-173152 SEQOK SUMOK 96fd421f 
+ nethaniasonya nota1706 200602-173207-68be-UAS/ 200602-173207 SEQOK SUMOK 68bed9a5 
+ nethaniasonya nota1706 200602-173210-f92a-UAS/ 200602-173210 SEQOK SUMOK f92a4df5 
+ nethaniasonya nota1706 200602-173254-9c67-UAS/ 200602-173254 SEQOK SUMOK 9c67cfe4 
+ nethaniasonya ZCZCSCRIPTSTOP 200602-173300 SEQOK 
+
+200608-195839-e8cb-nethania.sonya/> echo -e $CEKSEBELA2
+nethaniasonya ZCZCSCRIPTSTART 200601-153906 noviarmdnfg 
+ nethaniasonya noviarmdnfg 200601-153938-78cf-novia.ramadani/ 200601-153938 SEQOK SUMOK 78cfbd8a 
+ nethaniasonya noviarmdnfg 200601-153948-72a0-novia.ramadani/ 200601-153948 SEQOK SUMOK 72a0eacc 
+ nethaniasonya noviarmdnfg 200601-154119-997b-novia.ramadani/ 200601-154119 SEQOK SUMOK 997bee7f 
+ nethaniasonya noviarmdnfg 200601-154130-63cf-novia.ramadani/ 200601-154130 SEQOK SUMOK 63cfa4b5 
+ nethaniasonya ZCZCSCRIPTSTOP 200601-154135 SEQOK 
+
+200608-195844-0afa-nethania.sonya/> exit
+exit
+
+Script done on Mon Jun  8 19:58:47 2020
