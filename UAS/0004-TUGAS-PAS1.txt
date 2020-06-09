@@ -10,7 +10,7 @@ $ PS1="\$(eval \$PSTAMP)"
 200608-195828-5096-nethania.sonya/> echo -e $CEKSAYA
 nethaniasonya ZCZCSCRIPTSTART 200606-170601 nethaniasonya 
  nethaniasonya nethaniasonya 200606-170601-df53-nethania.sonya/ 200606-170601 SEQOK SUMOK df534754 
- nethaniasonya nethaniasonya 200606-170602-43cd-nethania.sonya/ 200606-174502 SEQOK SUMOK 43cdaf87 
+ nethaniasonya nethaniasonya 200606-170602-43cd-nethania.sonya/ 200606-170602 SEQOK SUMOK 43cdaf87 
  nethaniasonya nethaniasonya 200606-170609-4528-nethania.sonya/ 200606-170609 SEQOK SUMOK 45281649 
  nethaniasonya nethaniasonya 200606-170634-5c7b-nethania.sonya/ 200606-170634 SEQOK SUMOK 5c7bfed7 
  nethaniasonya ZCZCSCRIPTSTOP 200606-170640 SEQOK 
