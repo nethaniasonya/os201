@@ -8,8 +8,8 @@ echo $PSTAMP
 
 eval $PSTAMP
 
-PS1="\$(eval \$PSTAMP)"nethania.sonya@badak:~$ 
-nethania.sonya@badak:~$ PS1="$ "
+PS1="\$(eval \$PSTAMP)"]0;nethania.sonya@badak: ~nethania.sonya@badak:~$ 
+]0;nethania.sonya@badak: ~nethania.sonya@badak:~$ PS1="$ "
 $ 
 $ echo $GitHubUser
 nethaniasonya
